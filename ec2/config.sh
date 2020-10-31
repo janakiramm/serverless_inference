@@ -10,4 +10,4 @@ python3 get-pip.py --user
 pip3 install  -t /mnt/efs/fs1/ml/lib -r requirements.txt
 
 cp -R model/* /mnt/efs/fs1/ml/model/
-sudo chown -R 1001:1001 /mnt/efs/fs1/ml/
+sudo chown -R 1001:1001 /mnt/efs/fs1
