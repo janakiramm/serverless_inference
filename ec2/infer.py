@@ -9,7 +9,7 @@ import urllib
 
 app = flask.Flask(__name__)
 model = None
-MODEL_DIR="./models/"
+MODEL_DIR="./model/"
 
 def initalize():
     global model
