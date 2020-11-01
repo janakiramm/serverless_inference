@@ -6,7 +6,7 @@ import torch.nn.functional as F
 import json
 import io
 import urllib
-import OS
+import os
 
 app = flask.Flask(__name__)
 model = None
