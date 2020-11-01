@@ -6,10 +6,11 @@ import torch.nn.functional as F
 import json
 import io
 import urllib
+import OS
 
 app = flask.Flask(__name__)
 model = None
-MODEL_DIR="./model/"
+MODEL_DIR=os.getenv("MODEL_DIR")
 
 def initalize():
     global model
